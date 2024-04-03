@@ -1,0 +1,2057 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <!-- note:FontAwesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- note:FontAwesome CDN Link -->
+    <!-- TT Tailwind Css Link -->
+    <link rel="stylesheet" href="src/css/tt-tailwind.css" />
+    <!-- TT Tailwind Css Link -->
+  </head>
+  <body>
+    <section class="sidebar-section">
+      <div class="sidebar-content">
+        <div class="sidebar-logo">
+          <img
+            height="32"
+            width="91"
+            src="src/assets/img/sidebar-logo.png"
+            alt="sidebar-logo.png"
+          />
+        </div>
+        <div class="sidebar-menu-container">
+          <div class="title">
+            <p>Main</p>
+          </div>
+          <div class="sidebar-menu-list-container">
+            <ul>
+              <li class="sidebar-first-li">
+                <a href="#" id="parent-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M5 22h14a2 2 0 0 0 2-2v-9a1 1 0 0 0-.29-.71l-8-8a1 1 0 0 0-1.41 0l-8 8A1 1 0 0 0 3 11v9a2 2 0 0 0 2 2m5-2v-5h4v5zm-5-8.59l7-7l7 7V20h-3v-5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v5H5z"
+                    />
+                  </svg>
+                  <span>Dashboards </span>
+                  <span id="count">12</span>
+                  <i class="fa-solid fa-angle-right" id="down-arrow"></i>
+                </a>
+                <ul class="sidebar-first-dropmenu">
+                  <li>
+                    <a href="#">CRM</a>
+                  </li>
+                  <li>
+                    <a href="#">Ecommerce</a>
+                  </li>
+                  <li>
+                    <a href="#">Crypto</a>
+                  </li>
+                  <li>
+                    <a href="#">Jobs</a>
+                  </li>
+                  <li id="not-hover">
+                    <a href="#">NFT</a>
+                  </li>
+                  <li>
+                    <a href="#">Sales</a>
+                  </li>
+                  <li>
+                    <a href="#">Analitics</a>
+                  </li>
+                  <li>
+                    <a href="#">Projects</a>
+                  </li>
+                  <li>
+                    <a href="#">HRM</a>
+                  </li>
+                  <li>
+                    <a href="#">Stocks</a>
+                  </li>
+                  <li>
+                    <a href="#">Courses</a>
+                  </li>
+                  <li>
+                    <a href="#">Personal</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="pages-menu-container">
+            <div class="pages-menu-title">
+              <p>Pages</p>
+            </div>
+            <div class="pages-menu-links">
+              <ul>
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content" id="auth">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Authentication</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="page-menu-links-content" id="error">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Error</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="pages-menu-container">
+            <div class="pages-menu-title">
+              <p>Pages</p>
+            </div>
+            <div class="pages-menu-links">
+              <ul>
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content" id="auth">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Authentication</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="page-menu-links-content" id="error">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Error</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="pages-menu-container">
+            <div class="pages-menu-title">
+              <p>Pages</p>
+            </div>
+            <div class="pages-menu-links">
+              <ul>
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content" id="auth">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Authentication</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="page-menu-links-content" id="error">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Error</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="pages-menu-container">
+            <div class="pages-menu-title">
+              <p>Pages</p>
+            </div>
+            <div class="pages-menu-links">
+              <ul>
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content" id="auth">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Authentication</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="page-menu-links-content" id="error">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Error</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="pages-menu-container">
+            <div class="pages-menu-title">
+              <p>Pages</p>
+            </div>
+            <div class="pages-menu-links">
+              <ul>
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content" id="auth">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Authentication</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="page-menu-links-content" id="error">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Error</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="pages-menu-container">
+            <div class="pages-menu-title">
+              <p>Pages</p>
+            </div>
+            <div class="pages-menu-links">
+              <ul>
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content" id="auth">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Authentication</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="page-menu-links-content" id="error">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Error</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="pages-menu-container">
+            <div class="pages-menu-title">
+              <p>Pages</p>
+            </div>
+            <div class="pages-menu-links">
+              <ul>
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content" id="auth">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Authentication</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="page-menu-links-content" id="error">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Error</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="pages-menu-container">
+            <div class="pages-menu-title">
+              <p>Pages</p>
+            </div>
+            <div class="pages-menu-links">
+              <ul>
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                      <code id="tag">New</code>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="page-menu-links-content" id="auth">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Authentication</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="page-menu-links-content" id="error">
+                    <a href="#">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Error</span>
+                    </a>
+                    <div class="icon-section">
+                      <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- note:Page-Content-Begin -->
+    <section class="page-content-section">
+      <header class="flex justify-between bg-white px-4 items-center">
+        <div class="hamburg-icon">
+          <i class="fa-solid fa-bars text-2xl text-gray-500 cursor-pointer"></i>
+        </div>
+        <div class="nav-section flex gap-4">
+          <div class="nav-icons">
+            <ul class="flex gap-4">
+              <li class="cursor-pointer">
+                <span>
+                  <i
+                    class="fa-solid fa-magnifying-glass text-gray-500 text-lg"
+                  ></i>
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span>
+                  <img
+                    src="src/assets/img/us_flag.jpg"
+                    width="22"
+                    height="22"
+                    class="rounded-full"
+                  />
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span>
+                  <i class="fa-regular fa-moon text-gray-500 text-xl"></i>
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span>
+                  <i
+                    class="fa-solid fa-cart-shopping text-gray-500 text-lg"
+                  ></i>
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span>
+                  <i class="fa-regular fa-bell text-gray-500 text-lg"></i>
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span>
+                  <i class="fa-solid fa-border-all text-lg text-gray-500"></i>
+                </span>
+              </li>
+              <li class="cursor-pointer">
+                <span>
+                  <i class="fa-solid fa-expand text-lg text-gray-500"></i>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="profile flex gap-2 cursor-pointer">
+            <img
+              src="src/assets/img/header-avatar.jpg"
+              width="32"
+              height="32"
+              class="rounded-full"
+            />
+            <div class="name">
+              <p
+                class="text-xs text-gray-500 font-900"
+                style="font-family: var(--montserrat)"
+              >
+                Json Taylor
+              </p>
+              <p
+                class="text-xs text-gray-500"
+                style="font-family: var(--montserrat)"
+              >
+                Web Designer
+              </p>
+            </div>
+          </div>
+          <div class="settings flex items-center cursor-pointer">
+            <i class="fa-solid fa-gear fa-spin text-gray-500"></i>
+          </div>
+        </div>
+      </header>
+      <!-- note:Header-End -->
+
+      <main class="bg-slate-50 px-4">
+        <section class="cards-section flex flex-col gap-4">
+          <div class="card-section-header flex justify-between py-4">
+            <h2 class="montserrat text-slate-800 text-lg">NFT</h2>
+            <div class="flex gap-2 items-center">
+              <a class="montserrat font-13 text-violet-500" href="#"
+                >Dashboards</a
+              >
+              <i
+                class="fa-solid fa-angles-right text-violet-500 text-sm cursor-pointer"
+              ></i>
+              <p class="montserrat font-13 font-bold text-slate-800">NFT</p>
+            </div>
+          </div>
+          <div
+            class="cards-item h-68 bg-white border-slate-50 rounded-md flex justify-between p-4 w-full"
+          >
+            <div class="cart-content flex flex-col w-full py-10">
+              <h4 class="text-2xl inter-sans text-slate-800">
+                Discover, collect and sell your
+                <span class="text-violet-500">NFTs</span> at one place
+              </h4>
+              <p class="inter-sans text-sm w-90-percentage text-gray-400">
+                NFT means non-fungible tokens (NFTs), which are generally
+                created using the same type of programming used for
+                cryptocurrencies.It is is a unique digital identifier that
+                cannot be copied.
+              </p>
+              <div class="btns flex items-center h-full mt-10 gap-1">
+                <button
+                  class="h-10 w-30 rounded-md border-none bg-violet-600 text-white inter-sans text-sm font-500 cursor-pointer"
+                >
+                  Discover Now
+                </button>
+                <button
+                  id="second-btn"
+                  class="h-10 w-30 rounded-md inter-sans text-sm font-500 cursor-pointer"
+                >
+                  Create Yours
+                </button>
+              </div>
+            </div>
+            <div class="cart-img">
+              <img
+                width="334px"
+                height="100%"
+                src="src/assets/img/first-card-img.png"
+                class="rounded-md"
+              />
+            </div>
+          </div>
+          <div
+            class="cards-item h-28 bg-white border-slate-50 rounded-md flex gap-4 p-6"
+          >
+            <div class="short-cart-left">
+              <div class="icon-box w-12 h-12 rounded-md bg-violet-600 p-1 py-2">
+                <svg
+                  style="fill: white; width: 40px; height: 32px"
+                  class=""
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="#000000"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none"></path>
+                  <path
+                    d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 4h2v5l-1-.75L9 9V4zm9 16H6V4h1v9l3-2.25L13 13V4h5v16z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="short-cart-right">
+              <p class="font-13 text-gray-400 inter-sans">Total Assets</p>
+              <h5 class="text-slate-800 text-xl inter-sans">596</h5>
+
+              <span style="font-size: 11px" class="inter-sans text-green-500">
+                0.25%
+                <i class="fa-solid fa-angle-up" style="font-size: 10px"></i>
+              </span>
+
+              <span style="font-size: 11px" class="inter-sans text-gray-500"
+                >This month
+              </span>
+            </div>
+          </div>
+          <div
+            class="cards-item h-28 bg-white border-slate-50 rounded-md flex gap-4 p-6"
+          >
+            <div class="short-cart-left">
+              <div class="icon-box w-12 h-12 rounded-md bg-green-500 p-1 py-2">
+                <svg
+                  style="fill: white; width: 40px; height: 32px"
+                  class=""
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="#000000"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none"></path>
+                  <path
+                    d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 4h2v5l-1-.75L9 9V4zm9 16H6V4h1v9l3-2.25L13 13V4h5v16z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="short-cart-right">
+              <p class="font-13 text-gray-400 inter-sans">Total Sales</p>
+              <h5 class="text-slate-800 text-xl inter-sans">821</h5>
+
+              <span style="font-size: 11px" class="inter-sans text-green-500">
+                0.25%
+                <i class="fa-solid fa-angle-up" style="font-size: 10px"></i>
+              </span>
+
+              <span style="font-size: 11px" class="inter-sans text-gray-500"
+                >This month
+              </span>
+            </div>
+          </div>
+          <div
+            class="cards-item h-28 bg-white border-slate-50 rounded-md flex gap-4 p-6"
+          >
+            <div class="short-cart-left">
+              <div class="icon-box w-12 h-12 rounded-md bg-violet-600 p-1 py-2">
+                <svg
+                  style="fill: white; width: 40px; height: 32px"
+                  class=""
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="#000000"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none"></path>
+                  <path
+                    d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 4h2v5l-1-.75L9 9V4zm9 16H6V4h1v9l3-2.25L13 13V4h5v16z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="short-cart-right">
+              <p class="font-13 text-gray-400 inter-sans">Total Sales</p>
+              <h5 class="text-slate-800 text-xl inter-sans">596</h5>
+
+              <span style="font-size: 11px" class="inter-sans text-green-500">
+                0.25%
+                <i class="fa-solid fa-angle-up" style="font-size: 10px"></i>
+              </span>
+
+              <span style="font-size: 11px" class="inter-sans text-gray-500"
+                >This month
+              </span>
+            </div>
+          </div>
+          <div
+            class="cards-item h-28 bg-white border-slate-50 rounded-md flex gap-4 p-6"
+          >
+            <div class="short-cart-left">
+              <div class="icon-box w-12 h-12 rounded-md bg-violet-600 p-1 py-2">
+                <svg
+                  style="fill: white; width: 40px; height: 32px"
+                  class=""
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  fill="#000000"
+                >
+                  <path d="M0 0h24v24H0V0z" fill="none"></path>
+                  <path
+                    d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 4h2v5l-1-.75L9 9V4zm9 16H6V4h1v9l3-2.25L13 13V4h5v16z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="short-cart-right">
+              <p class="font-13 text-gray-400 inter-sans">Total Assets</p>
+              <h5 class="text-slate-800 text-xl inter-sans">596</h5>
+
+              <span style="font-size: 11px" class="inter-sans text-green-500">
+                0.25%
+                <i class="fa-solid fa-angle-up" style="font-size: 10px"></i>
+              </span>
+
+              <span style="font-size: 11px" class="inter-sans text-gray-500"
+                >This month
+              </span>
+            </div>
+          </div>
+          <div class="last-card-container h-62 rounded-md p-6 bg-white mb-4">
+            <div class="card-content flex justify-between">
+              <div class="card-left-side">
+                <p class="text-gray-400 font-13 inter-sans py-2">
+                  Your Balance
+                </p>
+                <p class="text-slate-800 inter-sans pb-2 text-2xl font-700">
+                  $19,867.96
+                </p>
+                <p class="text-gray-400 inter-sans" style="font-size: 11px">
+                  Top offers on USD-27,981
+                  <span class="text-green-500">(+29.09%)</span>
+                </p>
+              </div>
+              <div
+                class="card-right-side w-10 h-10 rounded-md bg-slate-200 flex justify-center items-center"
+              >
+                <span class=" ">
+                  <svg
+                    class="svg-primary"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    width="24px"
+                    fill="#9457EB"
+                  >
+                    <path d="M0 0h24v24H0V0z" fill="none"></path>
+                    <path
+                      d="M21 7.28V5c0-1.1-.9-2-2-2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-2.28c.59-.35 1-.98 1-1.72V9c0-.74-.41-1.37-1-1.72zM20 9v6h-7V9h7zM5 19V5h14v2h-6c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h6v2H5z"
+                    ></path>
+                    <circle cx="16" cy="12" r="1.5"></circle>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- card-section-end -->
+        <section class="product-section flex flex-col gap-5">
+          <div class="section-top flex justify-between items-center w-full">
+            <h6 class="inter-sans text-base text-slate-800">
+              Trending Auctions :
+            </h6>
+            <div
+              class="view-btn h-6 w-16 rounded-md flex justify-center items-center"
+              id="view-btn"
+              style="background-color: #e5e1f5"
+            >
+              <span class="inter-sans text-xs text-violet-600">View All</span>
+            </div>
+          </div>
+          <div class="section-product-part-container grid-cols-4">
+            <div class="card-content w-66 border">
+              <div class="img-part h-50-percentage">
+                <img
+                  height="100%"
+                  width="100%"
+                  class="rounded-md"
+                  src="src/assets/img/product-1-img.png"
+                />
+              </div>
+              <div class="info-part"></div>
+              <div class="submit-part"></div>
+            </div>
+
+            <div class="card-content w-66 border">
+              <div class="img-part h-50-percentage">
+                <img
+                  height="100%"
+                  width="100%"
+                  class="rounded-md"
+                  src="src/assets/img/product-1-img.png"
+                />
+              </div>
+              <div class="info-part"></div>
+              <div class="submit-part"></div>
+            </div>
+
+            <div class="card-content w-66 border">
+              <div class="img-part h-50-percentage">
+                <img
+                  height="100%"
+                  width="100%"
+                  class="rounded-md"
+                  src="src/assets/img/product-1-img.png"
+                />
+              </div>
+              <div class="info-part"></div>
+              <div class="submit-part"></div>
+            </div>
+
+            <div class="card-content w-66 border">
+              <div class="img-part h-50-percentage">
+                <img
+                  height="100%"
+                  width="100%"
+                  class="rounded-md"
+                  src="src/assets/img/product-1-img.png"
+                />
+              </div>
+              <div class="info-part"></div>
+              <div class="submit-part"></div>
+            </div>
+          </div>
+        </section>
+        <section class="table-section mt-4">
+          <div
+            class="full-table bg-white rounded-md"
+            style="height: 540px; border: 1px solid lightgray"
+          >
+            <div
+              class="table-cell-top h-14 flex justify-between p-2 items-center"
+              style="border-bottom: 1px solid lightgray"
+            >
+              <h4
+                class="inter-sans font-700 relative"
+                style="font-size: 15px; padding-left: 5px"
+              >
+                Top Creators
+              </h4>
+              <div class="view-btn">
+                <span class="text-xs text-violet-400 mr-5 inter-sans"
+                  >View All
+                  <i class="fa-solid fa-angle-down text-xs text-violet-400"></i>
+                </span>
+              </div>
+            </div>
+            <div class="table-datas">
+              <table class="w-full">
+                <thead>
+                  <tr class="relative">
+                    <th
+                      class="flex justify-start p-3 inter-sans font-13 text-gray-800"
+                      style="width: 433px"
+                    >
+                      Name
+                    </th>
+                    <th
+                      class="p-3 inter-sans font-13 text-gray-800 font-bold"
+                      style="width: 215px"
+                    >
+                      Items Sold
+                    </th>
+                    <th
+                      class="p-3 inter-sans font-13 text-gray-800 font-bold"
+                      style="width: 205px"
+                    >
+                      Total Value
+                    </th>
+                    <th
+                      class="p-3 inter-sans font-13 text-gray-800 font-bold"
+                      style="width: 205px"
+                    >
+                      Action
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+        <!-- Creators-Table-End -->
+
+        <section class="table-section mt-4">
+          <div
+            class="full-table bg-white rounded-md"
+            style="height: 540px; border: 1px solid lightgray"
+          >
+            <div
+              class="table-cell-top h-14 flex justify-between p-2 items-center"
+              style="border-bottom: 1px solid lightgray"
+            >
+              <h4
+                class="inter-sans font-700 relative"
+                style="font-size: 15px; padding-left: 5px"
+              >
+                Top Creators
+              </h4>
+              <div class="view-btn">
+                <span class="text-xs text-violet-400 mr-5 inter-sans"
+                  >View All
+                  <i class="fa-solid fa-angle-down text-xs text-violet-400"></i>
+                </span>
+              </div>
+            </div>
+            <div class="table-datas">
+              <table class="w-full">
+                <thead>
+                  <tr class="relative">
+                    <th
+                      class="flex justify-start p-3 inter-sans font-13 text-gray-800"
+                      style="width: 433px"
+                    >
+                      Name
+                    </th>
+                    <th
+                      class="p-3 inter-sans font-13 text-gray-800 font-bold"
+                      style="width: 215px"
+                    >
+                      Items Sold
+                    </th>
+                    <th
+                      class="p-3 inter-sans font-13 text-gray-800 font-bold"
+                      style="width: 205px"
+                    >
+                      Total Value
+                    </th>
+                    <th
+                      class="p-3 inter-sans font-13 text-gray-800 font-bold"
+                      style="width: 205px"
+                    >
+                      Action
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="relative">
+                    <td class="p-4 flex gap-2">
+                      <div class="logo w-10 h-10">
+                        <img
+                          width="100%"
+                          height="100%"
+                          src="src/assets/img/header-avatar.jpg"
+                          class="rounded-full"
+                        />
+                      </div>
+                      <div class="name">
+                        <p
+                          class="flex items-center inter-sans font-13 text-gray-900 font-bold"
+                        >
+                          Amanda Nanes
+                          <span class="pt-1" style="font-size: 13px">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14px"
+                              height="13px"
+                              viewBox="0 0 24 24"
+                              style="font-size: 13px"
+                            >
+                              <path
+                                fill="#26BF94"
+                                fill-rule="evenodd"
+                                d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18m-.232-5.36l5-6l-1.536-1.28l-4.3 5.159l-2.225-2.226l-1.414 1.414l3 3l.774.774z"
+                                clip-rule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </p>
+                        <p class="text-xs inter-sans text-gray-500">
+                          amandananes@
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <p class="text-xs text-gray-500 font-bold inter-sans">
+                        Total Sold
+                      </p>
+                      <p
+                        class="flex w-50-percentage justify-center pl-10 font-13 inter-sans text-gray-800 font-bold"
+                      >
+                        18
+                      </p>
+                    </td>
+                    <td class="p-4 text-center">
+                      <div class="flex-col gap-1">
+                        <p class="font-13 inter-sans text-gray-500 font-bold">
+                          Sale Value
+                        </p>
+                        <p class="text-xs inter-sans text-gray-800 font-bold">
+                          $1,982
+                        </p>
+                      </div>
+                    </td>
+                    <td class="p-4 text-center">
+                      <button
+                        class="rounded-md bg-violet-500 text-white border-0 inter-sans text-xs cursor-pointer"
+                        style="height: 26px; width: 54px"
+                      >
+                        Follow
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+        <!-- Collectors-table-End -->
+        <section class="static-section flex mt-2 gap-5 py-4">
+          <div class="chart-table-section flex-2 border rounded-md">
+            <div
+              class="top flex justify-between px-1 items-center w-full"
+              style="height: 67px; border-bottom: 1px solid lightgray"
+            >
+              <div class="left">
+                <h4>NFTs Statistics</h4>
+              </div>
+              <div class="right">
+                <ul class="flex">
+                  <li
+                    class="w-9 h-9 bg-violet-100 p-2"
+                    style="
+                      border-right: 1px solid lightpink;
+                      border-top-left-radius: 6px;
+                      border-bottom-left-radius: 6px;
+                    "
+                  >
+                    1D
+                  </li>
+                  <li
+                    class="w-9 h-9 bg-violet-100 p-2"
+                    style="border-right: 1px solid lightpink"
+                  >
+                    1W
+                  </li>
+                  <li
+                    class="w-9 h-9 bg-violet-100 p-2"
+                    style="border-right: 1px solid lightpink"
+                  >
+                    1M
+                  </li>
+                  <li
+                    class="w-9 h-9 bg-violet-100 p-2"
+                    style="border-right: 1px solid lightpink"
+                  >
+                    3M
+                  </li>
+                  <li
+                    class="w-9 h-9 bg-violet-100 p-2"
+                    style="border-right: 1px solid lightpink"
+                  >
+                    6M
+                  </li>
+                  <li
+                    class="w-9 h-9 bg-violet-100 p-2"
+                    style="
+                      border-right: 1px solid lightpink;
+                      border-top-right-radius: 6px;
+                      border-bottom-right-radius: 6px;
+                    "
+                  >
+                    1Y
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-table-section-right flex-col gap-5">
+            <div class="chart-heading flex justify-between mt-2">
+              <h4 class="text-base text-gray-800 inter-sans">
+                Featured Collections :
+              </h4>
+              <span
+                style="
+                  color: blueviolet;
+                  height: 28px;
+                  width: 62px;
+                  background-color: #e2e8f0;
+                  border: 1px solid rgba(255, 255, 255, 0.4);
+                "
+                class="text-xs inter-sans rounded-md flex justify-center items-center h-full"
+                >View All</span
+              >
+            </div>
+            <div class="chart-heading">
+              <div
+                class="chart-table-section w-86 flex-col rounded-md"
+                style="border: 1px solid gray"
+              >
+                <div class="top flex-wrap gap-2 p-5" style="height: 330px">
+                  <div class="img" style="width: 147px; height: 141px">
+                    <img
+                      src="src/assets/img/static-img-1.png"
+                      width="100%"
+                      height="100%"
+                      class="rounded-lg"
+                    />
+                  </div>
+                  <div class="img" style="width: 147px; height: 141px">
+                    <img
+                      src="src/assets/img/static-img-1.png"
+                      width="100%"
+                      height="100%"
+                      class="rounded-lg"
+                    />
+                  </div>
+                  <div class="img" style="width: 147px; height: 141px">
+                    <img
+                      src="src/assets/img/static-img-1.png"
+                      width="100%"
+                      height="100%"
+                      class="rounded-lg"
+                    />
+                  </div>
+                  <div class="img" style="width: 147px; height: 141px">
+                    <img
+                      src="src/assets/img/static-img-1.png"
+                      width="100%"
+                      height="100%"
+                      class="rounded-lg"
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="center flex justify-between items-center px-2"
+                  style="
+                    height: 57px;
+                    border-top: 1px solid lightgray;
+                    border-bottom: 1px solid lightgray;
+                  "
+                >
+                  <div class="center-left">
+                    <p class="text-xs inter-sans text-gray-500">
+                      Collection Rank :
+                      <span
+                        class="text-green-500 font-bold"
+                        style="font-size: 15px"
+                        >#3</span
+                      >
+                    </p>
+                  </div>
+                  <div class="center-right">
+                    <span class="font-13 font-bold inter-sans text-gray-800"
+                      >1.0979ETH</span
+                    >
+                  </div>
+                </div>
+
+                <div
+                  class="bottom flex justify-between px-2 items-center"
+                  style="height: 77px"
+                >
+                  <div class="bottom-left flex gap-2 items-center">
+                    <div class="avatar w-10 h-10">
+                      <img
+                        width="100%"
+                        src="src/assets/img/header-avatar.jpg"
+                        class="rounded-full"
+                      />
+                    </div>
+                    <div class="name">
+                      <p class="inter-sans font-13 font-bold">Json Taylor</p>
+                      <p class="inter-sans text-xs text-gray-500">@taylor</p>
+                    </div>
+                  </div>
+                  <div
+                    class="bottom-right w-10 h-10 flex justify-center items-center"
+                  >
+                    <span
+                      class="rounded-md w-75-percentage h-75-percentage flex items-center justify-center text-center"
+                      style="background-color: #e2e8f0"
+                    >
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="h-100 border py-4 rounded-md"></section>
+        <section class="h-100 border my-4 rounded-md">
+          <div
+            class="top h-12 w-full p-2 flex items-center justify-between"
+            style="border-bottom: 1px solid lightblue"
+          >
+            <h4 class="inter-sans">Personal Listings</h4>
+            <span class="inter-sans text-sm">View All</span>
+          </div>
+        </section>
+      </main>
+      <!-- note:Main-End -->
+
+      <footer class="flex justify-center items-center bg-white">
+        <span style="font-family: var(--inter); font-size: var(--13)">
+          Copyright © 2024
+          <span id="velvet">
+            <strong style="color: var(--dark-black)">Velvet</strong>
+          </span>
+          . Designed with
+          <span><i class="fa-solid fa-heart" style="color: #e90707"></i></span>
+          by
+          <span>
+            <a
+              style="
+                text-decoration: underline;
+                color: var(normal-purple);
+                font-weight: 700;
+              "
+              href="#"
+              >Spruko</a
+            >
+          </span>
+          All rights reserved
+        </span>
+      </footer>
+    </section>
+    <!-- note:Page-Content-End -->
+    <script type="module" src="src/script/app.js" defer></script>
+  </body>
+</html>
